@@ -16,17 +16,23 @@ export const useStore = defineStore("store", {
         color: "#F0E8D5",
         image: new URL("../assets/images/Cms-04 1.png", import.meta.url),
       },
-      {
-        id: 2,
-        title: "Make your Breakfast Healthy and Easy",
-        color: "#F3E8E8",
-        image: new URL("../assets/images/Cat-01 1.png", import.meta.url),
-      },
+      // {
+      //   id: 2,
+      //   title: "Make your Breakfast Healthy and Easy",
+      //   color: "#F3E8E8",
+      //   image: new URL("../assets/images/Cat-01 1.png", import.meta.url),
+      // },
       {
         id: 3,
         title: "The best Organic Products Online",
         color: "#E7EAF3",
         image: new URL("../assets/images/Cms-03 1.png", import.meta.url),
+      },
+      {
+        id: 2,
+        title: "Make your Breakfast Healthy and Easy",
+        color: "#F3E8E8",
+        image: new URL("../assets/images/Cat-01 1.png", import.meta.url),
       },
     ],
     categories: [
