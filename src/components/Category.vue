@@ -1,22 +1,4 @@
-<!-- <template>
-    <div class="Category">
-        <img src="image"/>
 
-    </div>
-</template>
-<script>
-    export default{
-        name: "Category",
-        props:["image"],
-    }
-</script>
-<style>
-    .Category{
-        height: 100px;
-        width: 100px;
-        background-color: chartreuse;
-    }
-</style> -->
 <template>
     <div :style="{ backgroundColor: bgColor }" class="category">
       <img :src="image" />
